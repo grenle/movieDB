@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>moviedb:home</title>
+        <link rel="stylesheet" href="./css/style.css" media="screen">
+        <link rel="stylesheet" href="./css/home.css" media="screen">
+    </head>
+    <body>
+        <section id="centerpiece">
+            <h1>Welcome.</h1>
+            <h2>To this totally legit moviedb website.</h2>
+            <form id="searchMovies" method="GET" action="/search">
+                <label>
+                    <input type="text" id="searchBox" name="searchBox" placeholder="type som'in">
+                </label>
+                <input type="submit" value="search">
+            </form>
+        </section>
+        <section id="popular">
+            <h2>What's popular</h2>
+            <section id="popularMovies"></section>
+        </section>
+        <script type="module" src="constants.js"></script>
+        <script type="module" src="index.js"></script>
+    </body>
+</html>
