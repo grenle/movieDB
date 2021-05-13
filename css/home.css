@@ -2,8 +2,11 @@
     max-width: var(--section-max-width);
     margin-left: auto;
     margin-right: auto;
-    padding: 50px;
     background-color: lightblue;
+}
+
+#centerpieceContent{
+    padding: 50px;
 }
 
 #searchMovies{
